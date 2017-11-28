@@ -1,0 +1,13 @@
+[package]
+name = "async_hyper_router"
+version = "0.1.0"
+authors = ["kris"]
+
+[dependencies]
+hyper = "0.11.2"
+futures = "0.1.14"
+regex = "0.2"
+
+[lib]
+name = "async_hyper_router"
+path = "src/lib.rs"
